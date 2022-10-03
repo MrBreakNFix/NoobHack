@@ -2,6 +2,7 @@
 
 ## Download
 <a href='https://www.curseforge.com/minecraft/mc-mods/fabric-api'><img src='https://i.imgur.com/Ol1Tcf8.png' width="150"></a>
+
 Go the releases and download the .jar file, and put it in your mods folder.
 You also need fabric API
 
