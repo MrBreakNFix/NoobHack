@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "noobhack",
+  "version": "1.0.0",
+
+  "name": "Noob Hack",
+  "description": "The best hacked client in the world with all the latest and greatest exploits!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/noobhack/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.noob.NoobHack"
+    ]
+  },
+  "mixins": [
+    "noobhack.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
