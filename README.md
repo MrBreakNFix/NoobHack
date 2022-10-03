@@ -9,4 +9,4 @@ You also need fabric API
 
 This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
 
-###### you know this is a joke so get the frick out of here unless im trooling you and you want your inv deleted
+###### ###### you know this is a joke so get the frick out of here unless im trooling you and you want your inv deleted
