@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "noobhack",
+  "version": "${version}",
+
+  "name": "Noob Hack",
+  "description": "The best hacked client in the world with all the latest and greatest exploits!",
+  "authors": [
+    "MrBreakNFix, Coderx gamer"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Anonymous17532/NoobHack",
+    "sources": "https://github.com/Anonymous17532/NoobHack"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/noobhack/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.fabricmc.noob.NoobHack"
+    ]
+  },
+  "mixins": [
+    "noobhack.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
